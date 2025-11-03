@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from '../config/db.js'; // ✅ Corrección: sube un nivel a la carpeta config
+import connectDB from './config/db.js'; // ✅ Corrección: sube un nivel a la carpeta config
 
 // Configurar variables de entorno
 dotenv.config();
